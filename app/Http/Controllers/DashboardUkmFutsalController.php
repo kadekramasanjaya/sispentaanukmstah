@@ -10,7 +10,6 @@ class DashboardUkmFutsalController extends Controller
     public function __construct()
     {
         $this->FutsalModel = new FutsalModel();
-        $this->middleware('auth');
     }
 
     public function index()
