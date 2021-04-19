@@ -45,7 +45,7 @@
                 <ul>
                     <li class="active"><a href="/">Home</a></li>
                     <li><a href="#about">Tentang</a></li>
-                    <li><a href="#team">Team</a></li>
+                    <li><a href="#team">Pengurus</a></li>
                     <li><a href="#services">Anggota</a></li>
                     <li><a href="#contact">Contact</a></li>
                     <li><a href="/portfoliomusik">Portfolio</a></li>

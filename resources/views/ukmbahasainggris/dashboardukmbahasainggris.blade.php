@@ -10,8 +10,8 @@
     <meta content="" name="keywords">
 
     <!-- Favicons -->
-    <link href="{{ asset('ukmbahasainggris/') }}/assets/img/ukmmusik.png" rel="icon">
-    <link href="{{ asset('ukmbahasainggris/') }}/assets/img/ukmmusik.png" rel="apple-touch-icon">
+    <link href="{{ asset('ukmbahasainggris/') }}/assets/img/favicon.png" rel="icon">
+    <link href="{{ asset('ukmbahasainggris/') }}/assets/img/apple-touch-icon.png" rel="apple-touch-icon">
 
     <!-- Google Fonts -->
     <link
@@ -23,51 +23,55 @@
     <link href="{{ asset('ukmbahasainggris/') }}/assets/vendor/icofont/icofont.min.css" rel="stylesheet">
     <link href="{{ asset('ukmbahasainggris/') }}/assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
     <link href="{{ asset('ukmbahasainggris/') }}/assets/vendor/venobox/venobox.css" rel="stylesheet">
-    <link href="{{ asset('ukmbahasainggris/') }}/assets/vendor/remixicon/remixicon.css" rel="stylesheet">
     <link href="{{ asset('ukmbahasainggris/') }}/assets/vendor/owl.carousel/assets/owl.carousel.min.css"
         rel="stylesheet">
-    <link href="{{ asset('dashboard/') }}/assets/vendor/aos/aos.css" rel="stylesheet">
+    <link href="{{ asset('ukmbahasainggris/') }}/assets/vendor/aos/aos.css" rel="stylesheet">
 
     <!-- Template Main CSS File -->
     <link href="{{ asset('ukmbahasainggris/') }}/assets/css/style.css" rel="stylesheet">
+
+    <!-- =======================================================
+  * Template Name: Day - v2.2.1
+  * Template URL: https://bootstrapmade.com/day-multipurpose-html-template-for-free/
+  * Author: BootstrapMade.com
+  * License: https://bootstrapmade.com/license/
+  ======================================================== -->
 </head>
 
 <body>
-
     <!-- ======= Header ======= -->
     <header id="header" class="fixed-top ">
-        <div class="container-fluid d-flex align-items-center justify-content-between">
+        <div class="container d-flex align-items-center">
 
-            <h1 class="logo"><a href="/">SISPENTAAN UKM</a></h1>
+            <h1 class="logo mr-auto"><a href="index.html">UKM BAHASA INGGRIS</a></h1>
             <!-- Uncomment below if you prefer to use an image logo -->
-            <!-- <a href="index.html" class="logo"><img src="assets/img/logo.png" alt="" class="img-fluid"></a>-->
+            <!-- <a href="index.html" class="logo mr-auto"><img src="assets/img/logo.png" alt="" class="img-fluid"></a>-->
 
             <nav class="nav-menu d-none d-lg-block">
                 <ul>
                     <li class="active"><a href="/">Home</a></li>
                     <li><a href="#about">Tentang</a></li>
-                    <li><a href="#team">Team</a></li>
+                    <li><a href="#team">Pengurus</a></li>
                     <li><a href="#services">Anggota</a></li>
                     <li><a href="#contact">Contact</a></li>
-                    <li><a href="/portfoliobahasainggris">Portfolio</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
                 </ul>
+
+
+
             </nav><!-- .nav-menu -->
 
-            <a href="/tedukmbahasainggris" class="get-started-btn scrollto">LOGIN</a>
+
 
         </div>
     </header><!-- End Header -->
 
     <!-- ======= Hero Section ======= -->
-    <section id="hero">
-        <div class="hero-container" data-aos="fade-up" data-aos-delay="150">
+    <section id="hero" class="d-flex align-items-center">
+        <div class="container position-relative" data-aos="fade-up" data-aos-delay="500">
             <h1>UNIT KEGIATAN MAHASISWA BAHASA INGGRIS</h1>
-            <h2>SEKOLAH TINGGI NEGERI MPU KUTURAN SINGARAJA</h2>
-            <div class="d-flex">
-                <a href="#about" class="btn-get-started scrollto">SELENGKAPNYA</a>
-                <a href="https://www.youtube.com/watch?v=KPHIueLddU0" class="venobox btn-watch-video"
-                    data-vbtype="video" data-autoplay="true"> Watch Video <i class="icofont-play-alt-2"></i></a>
-            </div>
+            <h2>SEKOLAH TINGGI MPU KUTURAN SINGARAJA</h2>
+            <a href="/tedukmbahasainggris" class="btn-get-started scrollto">SELENGKAPNYA</a>
         </div>
     </section><!-- End Hero -->
 
@@ -75,225 +79,122 @@
 
         <!-- ======= About Section ======= -->
         <section id="about" class="about">
-            <div class="container" data-aos="fade-up">
-
-                <div class="row justify-content-end">
-                    <div class="col-lg-11">
-                        <div class="row justify-content-end">
-                        </div>
-                    </div>
-                </div>
+            <div class="container">
 
                 <div class="row">
-
-                    <div class="col-lg-6 video-box align-self-baseline" data-aos="zoom-in" data-aos-delay="100">
-                        <br> <br> <br> <br> <br>
-                        <img src="{{ asset('ukmbahasainggris/') }}/assets/img/musik.png" class="img-fluid" alt="">
-                        <br> <br> <br> <br> <br>
-                        <a href="#" class="venobox play-btn mb-4" data-vbtype="video" data-autoplay="true"></a>
+                    <div class="col-lg-6 order-1 order-lg-2" data-aos="fade-left">
+                        <img src="{{ asset('ukmbahasainggris/') }}/assets/img/about.jpg" class="img-fluid" alt="">
                     </div>
-
-                    <div class="col-lg-6 content">
-                        <h3>Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus repellat, commodi
-                            perferendis amet error repudiandae soluta mollitia assumenda numquam facere, accusantium
-                            optio consectetur. Voluptatem sequi eligendi quos ducimus nihil labore!</h3>
+                    <div class="col-lg-6 pt-4 pt-lg-0 order-2 order-lg-1 content" data-aos="fade-right">
+                        <h3>Voluptatem dignissimos provident quasi corporis voluptates sit assumenda.</h3>
+                        <p class="font-italic">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+                            labore et dolore
+                            magna aliqua.
+                        </p>
+                        <ul>
+                            <li><i class="icofont-check-circled"></i> Ullamco laboris nisi ut aliquip ex ea commodo
+                                consequat.</li>
+                            <li><i class="icofont-check-circled"></i> Duis aute irure dolor in reprehenderit in
+                                voluptate velit.</li>
+                            <li><i class="icofont-check-circled"></i> Ullamco laboris nisi ut aliquip ex ea commodo
+                                consequat. Duis aute irure dolor in reprehenderit in voluptate trideta storacalaperda
+                                mastiro dolore eu fugiat nulla pariatur.</li>
+                        </ul>
+                        <p>
+                            Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
+                            reprehenderit in voluptate
+                            velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+                            proident, sunt in
+                            culpa qui officia deserunt mollit anim id est laborum
+                        </p>
                     </div>
-
                 </div>
 
             </div>
         </section><!-- End About Section -->
 
-        {{-- <!-- ======= About Boxes Section ======= -->
-        <section id="about-boxes" class="about-boxes">
-            <div class="container" data-aos="fade-up">
-
-                <div class="row">
-                    <div class="col-lg-4 col-md-6 d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="100">
-                        <div class="card">
-                            <img src="{{ asset('ukmbahasainggris/') }}/assets/img/about-boxes-1.jpg" class="card-img-top"
-                                alt="...">
-                            <div class="card-icon">
-                                <i class="ri-brush-4-line"></i>
-                            </div>
-                            <div class="card-body">
-                                <h5 class="card-title"><a href="">Our Mission</a></h5>
-                                <p class="card-text">Lorem ipsum dolor sit amet, consectetur elit, sed do eiusmod tempor
-                                    ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation
-                                    ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-4 col-md-6 d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="200">
-                        <div class="card">
-                            <img src="{{ asset('ukmbahasainggris/') }}/assets/img/about-boxes-2.jpg" class="card-img-top"
-                                alt="...">
-                            <div class="card-icon">
-                                <i class="ri-calendar-check-line"></i>
-                            </div>
-                            <div class="card-body">
-                                <h5 class="card-title"><a href="">Our Plan</a></h5>
-                                <p class="card-text">Sed ut perspiciatis unde omnis iste natus error sit voluptatem
-                                    doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore
-                                    veritatis et quasi architecto beatae vitae dicta sunt explicabo. </p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-4 col-md-6 d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="300">
-                        <div class="card">
-                            <img src="{{ asset('ukmbahasainggris/') }}/assets/img/about-boxes-3.jpg" class="card-img-top"
-                                alt="...">
-                            <div class="card-icon">
-                                <i class="ri-movie-2-line"></i>
-                            </div>
-                            <div class="card-body">
-                                <h5 class="card-title"><a href="">Our Vision</a></h5>
-                                <p class="card-text">Nemo enim ipsam voluptatem quia voluptas sit aut odit aut fugit,
-                                    sed quia magni dolores eos qui ratione voluptatem sequi nesciunt Neque porro
-                                    quisquam est, qui dolorem ipsum quia dolor sit amet. </p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-            </div>
-        </section><!-- End About Boxes Section --> --}}
-
-        {{-- <!-- ======= Clients Section ======= -->
+        <!-- ======= Clients Section ======= -->
         <section id="clients" class="clients">
             <div class="container" data-aos="zoom-in">
+            </div>
+        </section><!-- End Clients Section -->
+        <!-- ======= Team Section ======= -->
+        <section id="team" class="team">
+            <div class="container">
+
+                <div class="section-title">
+                    <span>PENGURUS INTI</span>
+                    <h2>PENGURUS INTI</h2>
+                    <p>Unit Kegiatan Mahasiswa Bahasa Inggris Sekolah Tinggi Agama Hindu Negeri Mpu Kuturan</p>
+                </div>
 
                 <div class="row">
-
-                    <div class="col-lg-2 col-md-4 col-6 d-flex align-items-center justify-content-center">
-                        <img src="{{ asset('ukmbahasainggris/') }}/assets/img/clients/client-1.png" class="img-fluid"
-                            alt="">
+                    <div class="col-lg-4 col-md-6 d-flex align-items-stretch" data-aos="zoom-in">
+                        <div class="member">
+                            <img src="{{ asset('ukmbahasainggris/') }}/assets/img/team/team-1.jpg" alt="">
+                            <h4>Walter White</h4>
+                            <span>Chief Executive Officer</span>
+                            <p>
+                                Magni qui quod omnis unde et eos fuga et exercitationem. Odio veritatis perspiciatis
+                                quaerat qui aut aut aut
+                            </p>
+                            <div class="social">
+                                <a href=""><i class="icofont-twitter"></i></a>
+                                <a href=""><i class="icofont-facebook"></i></a>
+                                <a href=""><i class="icofont-instagram"></i></a>
+                                <a href=""><i class="icofont-linkedin"></i></a>
+                            </div>
+                        </div>
                     </div>
 
-                    <div class="col-lg-2 col-md-4 col-6 d-flex align-items-center justify-content-center">
-                        <img src="{{ asset('ukmbahasainggris/') }}/assets/img/clients/client-2.png" class="img-fluid"
-                            alt="">
+                    <div class="col-lg-4 col-md-6 d-flex align-items-stretch" data-aos="zoom-in">
+                        <div class="member">
+                            <img src="{{ asset('ukmbahasainggris/') }}/assets/img/team/team-2.jpg" alt="">
+                            <h4>Sarah Jhinson</h4>
+                            <span>Product Manager</span>
+                            <p>
+                                Repellat fugiat adipisci nemo illum nesciunt voluptas repellendus. In architecto rerum
+                                rerum temporibus
+                            </p>
+                            <div class="social">
+                                <a href=""><i class="icofont-twitter"></i></a>
+                                <a href=""><i class="icofont-facebook"></i></a>
+                                <a href=""><i class="icofont-instagram"></i></a>
+                                <a href=""><i class="icofont-linkedin"></i></a>
+                            </div>
+                        </div>
                     </div>
 
-                    <div class="col-lg-2 col-md-4 col-6 d-flex align-items-center justify-content-center">
-                        <img src="{{ asset('ukmbahasainggris/') }}/assets/img/clients/client-3.png" class="img-fluid"
-                            alt="">
-                    </div>
-
-                    <div class="col-lg-2 col-md-4 col-6 d-flex align-items-center justify-content-center">
-                        <img src="{{ asset('ukmbahasainggris/') }}/assets/img/clients/client-4.png" class="img-fluid"
-                            alt="">
-                    </div>
-
-                    <div class="col-lg-2 col-md-4 col-6 d-flex align-items-center justify-content-center">
-                        <img src="{{ asset('ukmbahasainggris/') }}/assets/img/clients/client-5.png" class="img-fluid"
-                            alt="">
-                    </div>
-
-                    <div class="col-lg-2 col-md-4 col-6 d-flex align-items-center justify-content-center">
-                        <img src="{{ asset('ukmbahasainggris/') }}/assets/img/clients/client-6.png" class="img-fluid"
-                            alt="">
+                    <div class="col-lg-4 col-md-6 d-flex align-items-stretch" data-aos="zoom-in">
+                        <div class="member">
+                            <img src="{{ asset('ukmbahasainggris/') }}/assets/img/team/team-3.jpg" alt="">
+                            <h4>William Anderson</h4>
+                            <span>CTO</span>
+                            <p>
+                                Voluptas necessitatibus occaecati quia. Earum totam consequuntur qui porro et laborum
+                                toro des clara
+                            </p>
+                            <div class="social">
+                                <a href=""><i class="icofont-twitter"></i></a>
+                                <a href=""><i class="icofont-facebook"></i></a>
+                                <a href=""><i class="icofont-instagram"></i></a>
+                                <a href=""><i class="icofont-linkedin"></i></a>
+                            </div>
+                        </div>
                     </div>
 
                 </div>
 
             </div>
-        </section><!-- End Clients Section --> --}}
-
-
-        <!-- ======= Team Section ======= -->
-        <section id="team" class="team section-bg">
-            <div class="container" data-aos="fade-up">
-
-                <div class="section-title">
-                    <h2>Pengurus Inti</h2>
-                    <p>UKM bahasainggris STAH N MPU KUTURAN</p>
-                </div>
-
-                <div class="row">
-
-                    <div class="col-lg-4 col-md-6">
-                        <div class="member" data-aos="fade-up" data-aos-delay="100">
-                            <div class="pic"><img src="" class="img-fluid" alt=""></div>
-                            <div class="member-info">
-                                <h4>Ketua</h4>
-                                <span>I Kadek Oka Sanjaya</span>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="200">
-                        <div class="member">
-                        </div>
-                    </div>
-
-                    <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="300">
-                        <div class="member">
-                            <div class="pic"><img src="" class="img-fluid" alt=""></div>
-                            <div class="member-info">
-                                <h4>Wakil Ketua</h4>
-                                <span>Kadek Ria Parwati</span>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="300">
-                        <div class="member">
-                            <div class="pic"><img src="" class="img-fluid" alt=""></div>
-                            <div class="member-info">
-                                <h4>Sekretaris 1</h4>
-                                <span>Kadek Noviani</span>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="200">
-                        <div class="member">
-                        </div>
-                    </div>
-
-                    <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="300">
-                        <div class="member">
-                            <div class="pic"><img src="" class="img-fluid" alt=""></div>
-                            <div class="member-info">
-                                <h4>Sekretaris 2</h4>
-                                <span>Tarayani Tari</span>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="300">
-                        <div class="member">
-                            <div class="pic"><img src="" class="img-fluid" alt=""></div>
-                            <div class="member-info">
-                                <h4>Bendahara 1</h4>
-                                <span>Ida Ayu Putu Linda Widianti</span>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="200">
-                        <div class="member">
-                        </div>
-                    </div>
-
-                    <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="300">
-                        <div class="member">
-                            <div class="pic"><img src="" class="img-fluid" alt=""></div>
-                            <div class="member-info">
-                                <h4>Bendahara 2</h4>
-                                <span>Komang Arista Swandewi</span>
-                            </div>
-                        </div>
-                    </div>
-                </div>
         </section><!-- End Team Section -->
-        <!-- ======= Services Section ======= -->
-        <section id="services" class="services section-bg">
-            <div class="container" data-aos="fade-up">
-                <div class="section-title">
-                    <h2>UKM BAHASA INGGRIS STAH N MPU KUTURAN</h2>
-                    <p>ANGGOTA</p>
-                </div>
-                {{-- Table --}}
+
+        <!-- ======= Cta Section ======= -->
+        <section id="services" class="cta">
+            <div class="section-title">
+                <span>ANGGOTA</span>
+                <h2>ANGGOTA</h2>
+                <p>Anggota Kepengurusan UKM FUTSAL</p>
                 <table class="table table-bordered">
                     <thead>
                         <tr>
@@ -322,93 +223,12 @@
                         @endforeach
                     </tbody>
                 </table>
-                {{-- End Table --}}
             </div>
-        </section><!-- End Services Section -->
-
-        {{-- <!-- ======= Testimonials Section ======= -->
-        <section id="testimonials" class="testimonials">
-            <div class="container" data-aos="zoom-in">
-
-                <div class="owl-carousel testimonials-carousel">
-
-                    <div class="testimonial-item">
-                        <img src="{{ asset('ukmbahasainggris/') }}/assets/img/testimonials/testimonials-1.jpg"
-                            class="testimonial-img" alt="">
-                        <h3>Saul Goodman</h3>
-                        <h4>Ceo &amp; Founder</h4>
-                        <p>
-                            <i class="bx bxs-quote-alt-left quote-icon-left"></i>
-                            Proin iaculis purus consequat sem cure digni ssim donec porttitora entum suscipit rhoncus.
-                            Accusantium quam, ultricies eget id, aliquam eget nibh et. Maecen aliquam, risus at semper.
-                            <i class="bx bxs-quote-alt-right quote-icon-right"></i>
-                        </p>
-                    </div>
-
-                    <div class="testimonial-item">
-                        <img src="{{ asset('ukmbahasainggris/') }}/assets/img/testimonials/testimonials-2.jpg"
-                            class="testimonial-img" alt="">
-                        <h3>Sara Wilsson</h3>
-                        <h4>Designer</h4>
-                        <p>
-                            <i class="bx bxs-quote-alt-left quote-icon-left"></i>
-                            Export tempor illum tamen malis malis eram quae irure esse labore quem cillum quid cillum
-                            eram malis quorum velit fore eram velit sunt aliqua noster fugiat irure amet legam anim
-                            culpa.
-                            <i class="bx bxs-quote-alt-right quote-icon-right"></i>
-                        </p>
-                    </div>
-
-                    <div class="testimonial-item">
-                        <img src="{{ asset('ukmbahasainggris/') }}/assets/img/testimonials/testimonials-3.jpg"
-                            class="testimonial-img" alt="">
-                        <h3>Jena Karlis</h3>
-                        <h4>Store Owner</h4>
-                        <p>
-                            <i class="bx bxs-quote-alt-left quote-icon-left"></i>
-                            Enim nisi quem export duis labore cillum quae magna enim sint quorum nulla quem veniam duis
-                            minim tempor labore quem eram duis noster aute amet eram fore quis sint minim.
-                            <i class="bx bxs-quote-alt-right quote-icon-right"></i>
-                        </p>
-                    </div>
-
-                    <div class="testimonial-item">
-                        <img src="{{ asset('ukmbahasainggris/') }}/assets/img/testimonials/testimonials-4.jpg"
-                            class="testimonial-img" alt="">
-                        <h3>Matt Brandon</h3>
-                        <h4>Freelancer</h4>
-                        <p>
-                            <i class="bx bxs-quote-alt-left quote-icon-left"></i>
-                            Fugiat enim eram quae cillum dolore dolor amet nulla culpa multos export minim fugiat minim
-                            velit minim dolor enim duis veniam ipsum anim magna sunt elit fore quem dolore labore illum
-                            veniam.
-                            <i class="bx bxs-quote-alt-right quote-icon-right"></i>
-                        </p>
-                    </div>
-
-                    <div class="testimonial-item">
-                        <img src="{{ asset('ukmbahasainggris/') }}/assets/img/testimonials/testimonials-5.jpg"
-                            class="testimonial-img" alt="">
-                        <h3>John Larson</h3>
-                        <h4>Entrepreneur</h4>
-                        <p>
-                            <i class="bx bxs-quote-alt-left quote-icon-left"></i>
-                            Quis quorum aliqua sint quem legam fore sunt eram irure aliqua veniam tempor noster veniam
-                            enim culpa labore duis sunt culpa nulla illum cillum fugiat legam esse veniam culpa fore
-                            nisi cillum quid.
-                            <i class="bx bxs-quote-alt-right quote-icon-right"></i>
-                        </p>
-                    </div>
-
-                </div>
-
-            </div>
-        </section><!-- End Testimonials Section --> --}}
-
+        </section><!-- End Cta Section -->
 
 
         <!-- ======= Contact Section ======= -->
-        <section id="contact" class="contact section-bg">
+        <section id="contact" class="contact">
             <div class="container" data-aos="fade-up">
 
                 <div class="section-title">
@@ -446,18 +266,26 @@
 
             </div>
         </section><!-- End Contact Section -->
+
     </main><!-- End #main -->
 
     <!-- ======= Footer ======= -->
     <footer id="footer">
         <div class="container">
             <div class="copyright">
-                &copy; Copyright <strong><span>SISPENTAN</span></strong>. UKM STAH N MPU KUTURAN
+                &copy; Copyright <strong><span>SISPENTAAN</span></strong>. UKM STAH N MPU KUTURAN
             </div>
+            {{-- <div class="credits">
+                <!-- All the links in the footer should remain intact. -->
+                <!-- You can delete the links only if you purchased the pro version. -->
+                <!-- Licensing information: https://bootstrapmade.com/license/ -->
+                <!-- Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/day-multipurpose-html-template-for-free/ -->
+                Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a>
+            </div> --}}
         </div>
     </footer><!-- End Footer -->
 
-    <a href="#" class="back-to-top"><i class="ri-arrow-up-line"></i></a>
+    <a href="#" class="back-to-top"><i class="icofont-simple-up"></i></a>
     <div id="preloader"></div>
 
     <!-- Vendor JS Files -->
@@ -465,11 +293,9 @@
     <script src="{{ asset('ukmbahasainggris/') }}/assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
     <script src="{{ asset('ukmbahasainggris/') }}/assets/vendor/jquery.easing/jquery.easing.min.js"></script>
     <script src="{{ asset('ukmbahasainggris/') }}/assets/vendor/php-email-form/validate.js"></script>
-    <script src="{{ asset('ukmbahasainggris/') }}/assets/vendor/waypoints/jquery.waypoints.min.js"></script>
-    <script src="{{ asset('ukmbahasainggris/') }}/assets/vendor/counterup/counterup.min.js"></script>
+    <script src="{{ asset('ukmbahasainggris/') }}/assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
     <script src="{{ asset('ukmbahasainggris/') }}/assets/vendor/venobox/venobox.min.js"></script>
     <script src="{{ asset('ukmbahasainggris/') }}/assets/vendor/owl.carousel/owl.carousel.min.js"></script>
-    <script src="{{ asset('ukmbahasainggris/') }}/assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
     <script src="{{ asset('ukmbahasainggris/') }}/assets/vendor/aos/aos.js"></script>
 
     <!-- Template Main JS File -->

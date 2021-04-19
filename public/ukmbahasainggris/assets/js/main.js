@@ -1,6 +1,6 @@
 /**
-* Template Name: Dewi - v2.2.1
-* Template URL: https://bootstrapmade.com/dewi-free-multi-purpose-html-template/
+* Template Name: Day - v2.2.1
+* Template URL: https://bootstrapmade.com/day-multipurpose-html-template-for-free/
 * Author: BootstrapMade.com
 * License: https://bootstrapmade.com/license/
 */
@@ -17,10 +17,7 @@
   });
 
   // Smooth scroll for the navigation menu and links with .scrollto classes
-  var scrolltoOffset = $('#header').outerHeight() - 16;
-  if (window.matchMedia("(max-width: 991px)").matches) {
-    scrolltoOffset += 16;
-  }
+  var scrolltoOffset = $('#header').outerHeight() - 1;
   $(document).on('click', '.nav-menu a, .mobile-nav a, .scrollto', function(e) {
     if (location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '') && location.hostname == this.hostname) {
       var target = $(this.hash);
@@ -127,13 +124,16 @@
   $(window).scroll(function() {
     if ($(this).scrollTop() > 100) {
       $('#header').addClass('header-scrolled');
+      $('#topbar').addClass('topbar-scrolled');
     } else {
       $('#header').removeClass('header-scrolled');
+      $('#topbar').removeClass('topbar-scrolled');
     }
   });
 
   if ($(window).scrollTop() > 100) {
     $('#header').addClass('header-scrolled');
+    $('#topbar').addClass('topbar-scrolled');
   }
 
   // Back to top button
@@ -150,20 +150,6 @@
       scrollTop: 0
     }, 1500, 'easeInOutExpo');
     return false;
-  });
-
-  // jQuery counterUp
-  $('[data-toggle="counter-up"]').counterUp({
-    delay: 10,
-    time: 1000
-  });
-
-  // Testimonials carousel (uses the Owl Carousel library)
-  $(".testimonials-carousel").owlCarousel({
-    autoplay: true,
-    dots: true,
-    loop: true,
-    items: 1
   });
 
   // Porfolio isotope and filter
@@ -200,6 +186,7 @@
   function aos_init() {
     AOS.init({
       duration: 1000,
+      easing: "ease-in-out",
       once: true
     });
   }
